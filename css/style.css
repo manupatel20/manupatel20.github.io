@@ -9355,6 +9355,11 @@ textarea.form-control {
   width: 100%;
   height: 180px; }
 
+  /* Ensure images fit inside block-20 without being cut */
+  .block-20 {
+    object-fit: contain;
+  }
+
 .blog-entry {
   position: relative; }
   @media (min-width: 768px) {
